@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <div class="container">
+    <h1>Expense Tracker</h1>
+    <input type="text" id="nom" placeholder="nom de la depense">
+    <input type="text" id="montant" placeholder="montant">
+    <select id="categorie">
+        <option value="food">Food</option>
+        <option value="transport">Transport</option>
+        <option value="autres">Autres</option>
+    </select>
+    <input type="date" id="date">
+    <button id="ajouter">ajouter</button>
+    <div id="liste"></div>
+    <p id="total">total : 0 DT</p>
+     </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
